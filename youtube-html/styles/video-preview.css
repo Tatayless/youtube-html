@@ -1,0 +1,37 @@
+.video-preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 32px;
+    margin-right: 10px;
+}
+
+.video-thumbnail {
+    width: 100%;
+}
+
+.video-grid {
+    transition-duration: 0.5s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.video-grid:hover {
+    background-color: rgb(177, 177, 177);
+    border-radius: 2px;
+    
+}
+
+.video-dpAndCaption {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    margin-bottom: 14px;
+}
+
+.video-Picture {
+    border-radius: 50px;
+    width: 16px;
+    margin-left: 2px;
+}

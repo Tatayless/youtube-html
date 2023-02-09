@@ -1,0 +1,18 @@
+p {
+    font-family: Roboto, Arial;
+    font-size: 4pt;
+    margin-top: 0px;
+    margin-bottom: 0px;;
+}
+
+.text-Title {
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.text-Author,
+.text-Stats {
+    color: rgb(96, 96, 96);
+    font-weight: 300;
+}

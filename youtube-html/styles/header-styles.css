@@ -1,0 +1,92 @@
+.hamburgerMenu {
+    width: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.youtubeLogo {
+    width: 36px;
+    padding-bottom: 1px;
+}
+
+.searchButton {
+    height: 12.5px;
+    vertical-align: middle;
+    background-color: rgba(238, 237, 237, 0.459);
+    border: 0.1px solid #cccccc;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.voiceButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13px;
+    width: 13px;
+    margin-left: 4px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgba(238, 237, 237, 0.459);
+}
+
+.searchIcon {
+    display: flex;
+    width: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.voiceIcon {
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+}
+
+.profilePicButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgba(238, 237, 237, 0);
+    height: 14px;
+    width: 14px;
+}
+
+.profilePicIcon {
+    vertical-align: middle;
+    height: 11px;
+    width: 11px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.createButton,
+.appsButton,
+.notifButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    height: 14px;
+    width: 14px;
+    margin-right: 3px;
+}
+
+.createIcon,
+.appsIcon,
+.notifIcon {
+    vertical-align: middle;
+    height: 8px;
+    width: 8px;
+}
+
+.createButton:hover,
+.appsButton:hover,
+.notifButton:hover,
+.searchButton:hover,
+.hamburgerMenu:hover,
+.voiceButton:hover {
+    cursor: pointer;
+}
